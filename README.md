@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-#Quiosco de Comida
+## Quiosco de Comida
 
 Breve descripción del proyecto.
 
