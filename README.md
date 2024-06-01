@@ -93,3 +93,29 @@ el componente pueda leer hamburguesa como el valor de category y usarlo para rea
 ### [1.0.2] - 2024-05-31
 
 
+###  [Unreleased]]
+
+## Resaltando la Categoría Actual en Next.js
+
+Al navegar por diferentes categorías, queremos que se resalte visualmente la categoría actual en el menú lateral.
+
+
+### Solución con useParams:
+
+**1.- Utilizamos el hook useParams:**  de next/navigation para obtener los parámetros de la URL en un componente de cliente.
+Convertimos el componente a un componente de cliente añadiendo use client en la parte superior.
+Implementamos console.log(params) para verificar los parámetros obtenidos.
+
+**2.- Resaltando la Categoría Actual:**
+Utilizamos los parámetros obtenidos para comparar con el slug de cada categoría.
+Aplicamos una clase CSS condicional (bg-number-400) para resaltar la categoría actual.
+Mejorando la Autocompletación:
+
+**3.- Definimos un tipo genérico para useParams** para mejorar la autocompletación y la validación en el código.
+Esto permitió detectar errores en los parámetros utilizados y asegurar que solo se usen parámetros válidos.
+Caché de Consultas con Prisma:
+
+**4.- Observamos cómo Next.js cachea automáticamente las consultas realizadas con Prisma.**
+Las consultas a categorías visitadas previamente no se vuelven a ejecutar, mejorando el rendimiento de la aplicación.
+
+### [1.0.3] - 2024-06-01
