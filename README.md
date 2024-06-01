@@ -119,3 +119,18 @@ Caché de Consultas con Prisma:
 Las consultas a categorías visitadas previamente no se vuelven a ejecutar, mejorando el rendimiento de la aplicación.
 
 ### [1.0.3] - 2024-06-01
+
+
+###  [Unreleased]]
+
+## Agregando Orden de la comida
+
+**1.- Agregar articulos a la orden**
+**2.- Mostrar todos los articulos de la orden**
+**3.- Evitar que se dupliquen esos objetos y muestre unicamente un producto seleccionado**
+**4.- Incrementar la cantidad del producto y decrementar**
+**5.- Cancelar la orden**
+**6.- Calcular el total a pagar**
+
+
+### [1.0.4] - 2024-06-01
