@@ -57,3 +57,29 @@ Para más detalles sobre cómo implementar las clases y configuraciones menciona
   <div className="Text cuatro xn text-center font-blank">
     Aquí va a estar el resumen del pedido de las personas.
   </div>
+
+###  [Unreleased]]
+
+## Instalación de Dependencias
+
+1. **Instalar Prisma Client:**
+2. **Instalar las Dependencias de Desarrollo de Prisma:**
+3. **Configuración de la Base de Datos en Render
+
+1. **Crear una Nueva Base de Datos PostgreSQL en Render:**
+    - Acceder al dashboard de Render.
+    - Seleccionar "New Postgres".
+    - Asignar un nombre a la base de datos, por ejemplo: `quiosco_next`.
+
+
+2. **Obtener la URL de Conexión:**
+    - Reemplazar el valor de `DATABASE_URL` en tu archivo `.env` con esta URL.
+
+## Confirmación de Conexión
+
+1. **Verificar la Conexión:**
+2.  **Definir Modelos en Prisma
+
+  
+
+
