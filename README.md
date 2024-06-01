@@ -83,3 +83,13 @@ Para más detalles sobre cómo implementar las clases y configuraciones menciona
 ### [1.0.1] - 2024-05-31
 
 
+###  [Unreleased]]
+
+## Routing Dinámico
+
+Esta estructura permite que cuando un usuario navegue a /order/hamburguesa, 
+el componente pueda leer hamburguesa como el valor de category y usarlo para realizar consultas a la base de datos y mostrar los productos correspondientes.
+
+### [1.0.2] - 2024-05-31
+
+
