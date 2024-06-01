@@ -14,23 +14,72 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Quiosco de Comida
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Breve descripción del proyecto.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Historial de Cambios
 
-To learn more about Next.js, take a look at the following resources:
+Todos los cambios notables en este proyecto se documentarán en este archivo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### [Unreleased]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Añadido
+- **Clase Text cuatro:** Añadida para estilizar el texto con `className Text cuatro, xn, text center y font blank`.
+- **Resumen del pedido:** Implementado el resumen del pedido de las personas.
+- **Clase MD Flex uno:** Añadida a `main` para que tome todo el espacio disponible (`className md Flex uno`).
+- **Clase MDH screen:** Añadida a `main` para manejar la altura de pantalla (`className MDH screen`).
+- **Clase MD overflow y scroll:** Añadida a `main` para manejar el desbordamiento y el scroll (`className md overflow y scroll`).
+- **Padding de cinco:** Añadido a `main` para agregar un padding de cinco (`padding de cinco`).
+- **Integración con Prisma:** Introducción del ORM Prisma para la gestión de la base de datos.
+- **Uso de Render:** Configuración inicial para utilizar Render como servicio de base de datos.
 
-## Deploy on Vercel
+### [1.0.0] - 2024-05-29
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Añadido
+- Funcionalidad inicial de la aplicación.
+- Documentación en el README.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Corregido
+- Corrección de errores menores en el código base.
+
+---
+
+## Detalles Adicionales
+
+Para más detalles sobre cómo implementar las clases y configuraciones mencionadas:
+
+### Implementación de Clases en el Layout
+
+- **Texto Resumen:** 
+  ```jsx
+  <div className="Text cuatro xn text-center font-blank">
+    Aquí va a estar el resumen del pedido de las personas.
+  </div>
+
+###  [Unreleased]]
+
+## Instalación de Dependencias
+
+1. **Instalar Prisma Client**
+2. **Instalar las Dependencias de Desarrollo de Prisma**
+3. **Configuración de la Base de Datos en Render**
+
+1. **Crear una Nueva Base de Datos PostgreSQL en Render:**
+    - Acceder al dashboard de Render.
+    - Seleccionar "New Postgres".
+    - Asignar un nombre a la base de datos, por ejemplo: `quiosco_next`.
+
+
+2. **Obtener la URL de Conexión:**
+    - Reemplazar el valor de `DATABASE_URL` en tu archivo `.env` con esta URL.
+
+## Confirmación de Conexión
+
+1. **Verificar la Conexión**
+2. **Definir Modelos en Prisma**
+
+### [1.0.1] - 2024-05-31
+
+
