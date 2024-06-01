@@ -62,9 +62,9 @@ Para más detalles sobre cómo implementar las clases y configuraciones menciona
 
 ## Instalación de Dependencias
 
-1. **Instalar Prisma Client:**
-2. **Instalar las Dependencias de Desarrollo de Prisma:**
-3. **Configuración de la Base de Datos en Render
+1. **Instalar Prisma Client**
+2. **Instalar las Dependencias de Desarrollo de Prisma**
+3. **Configuración de la Base de Datos en Render**
 
 1. **Crear una Nueva Base de Datos PostgreSQL en Render:**
     - Acceder al dashboard de Render.
@@ -77,9 +77,9 @@ Para más detalles sobre cómo implementar las clases y configuraciones menciona
 
 ## Confirmación de Conexión
 
-1. **Verificar la Conexión:**
-2.  **Definir Modelos en Prisma
+1. **Verificar la Conexión**
+2. **Definir Modelos en Prisma**
 
-  
+### [1.0.1] - 2024-05-31
 
 
