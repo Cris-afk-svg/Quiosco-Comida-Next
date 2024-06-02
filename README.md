@@ -229,3 +229,33 @@ Se muestra los resultados de la búsqueda en la interfaz de usuario.
 
 ### [1.0.7] - 2024-06-01
 
+
+###  [Unreleased]]
+
+## Creación de Productos
+
+1.- **Routing y Formulario para crear productos**
+Se configurara el routing y a crea un formulario para la adición de nuevos productos en la aplicación. 
+
+2.- **Mostrando las categorías en el formulario**
+Se Añadio un campo en el formulario para seleccionar la categoría del producto. 
+
+3.- **Validando la creación de Productos**
+Se Añadio validación al formulario de creación de productos utilizando ZOD para asegurarnos de que los datos ingresados sean correctos y completos.
+
+4.- **Cloudinary para Subir imágenes**
+Se configuraro Cloudinary para manejar la subida de imágenes. 
+
+5.- **Creando el Componente para subir imágenes**
+Se Desarrollo un componente de React para la subida de imágenes. 
+
+6.- **Obtener la URL de la imagen que se sube**
+Se obteniene la URL de las imágenes que se suben a Cloudinary. Esta URL se utilizará para almacenar la referencia de la imagen en la base de datos.
+
+7.- **Almacenando el Producto a la base de datos**
+Se almacena los datos del nuevo producto, incluyendo la URL de la imagen, en la base de datos utilizando Prisma.
+
+8.- **Cómo mostrar las imágenes si vienen de Cloudinary**
+Se muestra las imágenes que se almacenan en Cloudinary en la aplicación. 
+
+### [1.0.8] - 2024-06-01
