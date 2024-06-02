@@ -1,12 +1,34 @@
+"use client"
+
 import { ProductsWithCategory } from "@/app/admin/products/page"
 import { formatCurrency } from "@/src/utils"
 import Link from "next/link"
+import { toast } from "react-toastify"
+import { useRouter } from "next/navigation"
 
 type ProductTableProps = {
     products: ProductsWithCategory
 }
 
 export default function ProductTable({ products }: ProductTableProps) {
+    const router = useRouter()
+
+    const handleDelete = async (productId: number) => {
+        try {
+            const res = await fetch(`/admin/products/${productId}/delete`, {
+                method: 'DELETE',
+            })
+            if (res.ok) {
+                toast.success("Producto eliminado correctamente")
+                router.refresh() // Recargar la página para reflejar los cambios
+            } else {
+                toast.error("Error al eliminar el producto")
+            }
+        } catch (error) {
+            toast.error("Error al eliminar el producto")
+        }
+    }
+
     return (
         <div className="px-4 sm:px-6 lg:px-8 mt-20">
             <div className="mt-8 flow-root ">
@@ -46,6 +68,10 @@ export default function ProductTable({ products }: ProductTableProps) {
                                                 href={`/admin/products/${product.id}/edit`}
                                                 className="text-indigo-600 hover:text-indigo-800"
                                             >Editar <span className="sr-only">, {product.name}</span> </Link>
+                                            <button
+                                                onClick={() => handleDelete(product.id)}
+                                                className="text-red-600 hover:text-red-800 ml-4"
+                                            >Eliminar <span className="sr-only">, {product.name}</span> </button>
                                         </td>
                                     </tr>
                                 ))}
