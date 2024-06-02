@@ -1,7 +1,7 @@
 
 import OrderSidebar from "@/components/order/OrderSidebar";
 import OrderSummary from "@/components/order/OrderSummary";
-import ToastNotification from "@/components/order/ui/ToastNotification";
+import ToastNotification from "@/components/ui/ToastNotification";
 
 
 
