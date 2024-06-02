@@ -305,3 +305,16 @@ Se crea un endpoint de API para gestionar las órdenes que ya están listas. Ade
 Se consume el endpoint de API recién creado y mostrar las órdenes listas en la pantalla. Se Utilizan técnicas de revalidación y actualización en tiempo real para asegurar que la información mostrada esté siempre al día.
 
 ### [1.1.1] - 2024-06-02
+
+
+
+###  [Unreleased]]
+
+## Eliminar Producto
+
+1.	**Se agrega el Botón de Eliminación en la Tabla de Productos: Vamos a añadir un botón de eliminación al final de cada fila de producto en la tabla de productos.**
+2.	**Se Crea la Función para Eliminar el Producto: Esta función hará una solicitud al servidor para eliminar el producto y actualizar la interfaz de usuario.**
+3.	**Se Configura la API de Eliminación en el Backend: Añadimos un endpoint en nuestro servidor para manejar la eliminación del producto desde la base de datos.**
+
+
+### [1.1.2] - 2024-06-02
