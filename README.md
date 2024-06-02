@@ -279,3 +279,15 @@ Se validan las imágenes del producto durante el proceso de edición.
 Se guardan los cambios realizados en los productos.
 
 ### [1.0.9] - 2024-06-02
+
+
+###  [Unreleased]]
+
+## Ordenes Nuevas
+1. **Revalidación Manual**
+Se implementao la revalidación manual en la aplicación para asegurar que los datos mostrados estén siempre actualizados.
+
+2. **Creando un Endpoint de API para swr**
+Se rea un nuevo endpoint de API específicamente para ser utilizado con swr.
+
+### [1.1.0] - 2024-06-02
