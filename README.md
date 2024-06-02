@@ -161,6 +161,8 @@ Validar datos en el servidor utilizando ZOD. Esta capa adicional de validación 
 **5.- Validando el Resto de la Orden**
 Nos enfocaremos en validar el resto de los datos de la orden, asegurando que toda la información necesaria esté presente y sea correcta antes de proceder con el procesamiento de la orden.
 
+
+
 **6.- Ingresar Datos a la Base de Datos**
 Ingresar datos validados en la base de datos usando Prisma. 
 
@@ -168,3 +170,22 @@ Ingresar datos validados en la base de datos usando Prisma.
 Mecanismos para evitar la creación de órdenes duplicadas. Este paso es crucial para mantener la integridad de los datos y asegurar que cada orden sea única.
 
 ### [1.0.5] - 2024-06-01
+
+
+
+###  [Unreleased]]
+
+### Creando Panel de Administración
+
+1. **Creando las Rutas y Layout** 
+2. **Creando un componente re-utilizable para los títulos** 
+3. **Navegación en el panel de administración** 
+4. **Obtener las Ordenes Pendientes** 
+5. **Mostrar las Ordenes Pendientes** 
+6. **Mostrar el Contenido de la Orden** 
+7. **Creando la acción para completar ordenes** 
+8. **Marcar Ordenes Completas y Validación** 
+9. **Revalidación de datos en Next.js** 
+
+### [1.0.6] - 2024-06-01
+
