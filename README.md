@@ -139,3 +139,32 @@ Las consultas a categorías visitadas previamente no se vuelven a ejecutar, mejo
 
 
 ### [1.0.4] - 2024-06-01
+
+
+
+###  [Unreleased]]
+
+## Validación de información del pedido
+
+**1.- Recuperar Datos de Formulario con formData**
+Recuperar datos de formularios utilizando formData. Esta técnica es esencial para manejar la entrada de datos del usuario y prepararlos para su validación y procesamiento.
+
+**2.- Validación de Datos con ZOD en el Cliente**
+ Utilizar ZOD para validar datos del lado del cliente. Implementaremos esquemas de validación que aseguren que los datos ingresados por los usuarios cumplan con los requisitos esperados.
+
+**3.- Mostrando errores de validación con Toast**
+Mostrar errores de validación utilizando Toast, una librería de notificaciones que nos permitirá informar al usuario de una manera amigable y efectiva sobre los problemas encontrados en su entrada de datos.
+
+**4.- Validación de Datos con ZOD en el Servidor**
+Validar datos en el servidor utilizando ZOD. Esta capa adicional de validación asegura que los datos enviados desde el cliente sean seguros y conformes a nuestras expectativas antes de ser procesados o almacenados.
+
+**5.- Validando el Resto de la Orden**
+Nos enfocaremos en validar el resto de los datos de la orden, asegurando que toda la información necesaria esté presente y sea correcta antes de proceder con el procesamiento de la orden.
+
+**6.- Ingresar Datos a la Base de Datos**
+Ingresar datos validados en la base de datos usando Prisma. 
+
+**7.- Evitar Ordenes Duplicadas**
+Mecanismos para evitar la creación de órdenes duplicadas. Este paso es crucial para mantener la integridad de los datos y asegurar que cada orden sea única.
+
+### [1.0.5] - 2024-06-01
