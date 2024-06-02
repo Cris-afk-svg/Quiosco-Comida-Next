@@ -189,3 +189,43 @@ Mecanismos para evitar la creación de órdenes duplicadas. Este paso es crucial
 
 ### [1.0.6] - 2024-06-01
 
+
+
+###  [Unreleased]]
+
+## Administración de Productos
+1.- **Listando los Productos**
+En esta lección, listar los productos. Se utiliza Next.js y Prisma para obtener y mostrar los productos almacenados en la base de datos.
+
+2.- **Incluir la categoría en la tabla**
+Añadido la categoría de cada producto en la tabla de productos para una mejor organización y visualización. Obtener y mostrar esta información de manera eficiente.
+
+3.- **Creando un Paginador**
+Se creo un paginador para manejar la visualización de grandes cantidades de productos. 
+
+4.- **Creando routing para navegar en el paginador**
+Se implemento el routing necesario para permitir la navegación entre diferentes páginas del paginador, asegurando que la URL refleje la página actual.
+
+5.- **Calcular total de páginas**
+Se calcula el número total de páginas necesarias para mostrar todos los productos, basándonos en la cantidad de productos por página definida.
+
+6.- **Añadir el botón de página anterior**
+Se añado un botón para navegar a la página anterior en el paginador. Veremos cómo manejar el estado actual de la página y actualizarlo correctamente.
+
+7.- **Añadir paginador por números**
+Se implemento un paginador que permita la navegación por números de página, proporcionando una experiencia de usuario más intuitiva y rápida.
+
+8.- **Creando un Formulario de búsqueda de productos**
+Se creo un formulario de búsqueda para permitir a los usuarios buscar productos específicos.
+
+9.- **Validando el Buscador**
+Se Añadio validación al formulario de búsqueda para asegurarnos de que los usuarios ingresen términos de búsqueda válidos.
+
+10.- **Recuperar el valor de búsqueda**
+recuperar el valor de búsqueda ingresado por el usuario y utilizarlo para filtrar los productos mostrados.
+
+11.- **Mostrando los resultados de búsqueda**
+Se muestra los resultados de la búsqueda en la interfaz de usuario.
+
+### [1.0.7] - 2024-06-01
+
