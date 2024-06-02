@@ -259,3 +259,23 @@ Se almacena los datos del nuevo producto, incluyendo la URL de la imagen, en la 
 Se muestra las imágenes que se almacenan en Cloudinary en la aplicación. 
 
 ### [1.0.8] - 2024-06-01
+
+
+
+###  [Unreleased]]
+
+## Editar Productos
+
+1. **Obtener el producto a editar**
+Se recuperan los datos del producto que se desea editar. 
+
+2. **Ajustar el Formulario de Edición y Llenar los campos automáticamente**
+Se añadio la funcionalidad al formulario de edición para que se llenen automáticamente los campos con los datos del producto seleccionado. Esto mejorará la experiencia del usuario al editar productos.
+
+3. **Validando las imágenes**
+Se validan las imágenes del producto durante el proceso de edición. 
+
+4. **Guardando los cambios de Productos**
+Se guardan los cambios realizados en los productos.
+
+### [1.0.9] - 2024-06-02
