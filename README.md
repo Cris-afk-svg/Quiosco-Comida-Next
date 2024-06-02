@@ -291,3 +291,17 @@ Se implementao la revalidación manual en la aplicación para asegurar que los d
 Se rea un nuevo endpoint de API específicamente para ser utilizado con swr.
 
 ### [1.1.0] - 2024-06-02
+
+
+
+###  [Unreleased]]
+
+## Ordenes Listas
+
+1. **Creando el Endpoint de API y Pantalla de Ordenes Listas**
+Se crea un endpoint de API para gestionar las órdenes que ya están listas. Además, se configurara una pantalla en la aplicación para mostrar estas órdenes de manera eficiente.
+
+2. **Consumir el Endpoint y mostrar las ordenes listas**
+Se consume el endpoint de API recién creado y mostrar las órdenes listas en la pantalla. Se Utilizan técnicas de revalidación y actualización en tiempo real para asegurar que la información mostrada esté siempre al día.
+
+### [1.1.1] - 2024-06-02
