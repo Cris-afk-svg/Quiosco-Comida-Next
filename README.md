@@ -175,7 +175,7 @@ Mecanismos para evitar la creación de órdenes duplicadas. Este paso es crucial
 
 ###  [Unreleased]]
 
-### Creando Panel de Administración
+## Creando Panel de Administración
 
 1. **Creando las Rutas y Layout** 
 2. **Creando un componente re-utilizable para los títulos** 
